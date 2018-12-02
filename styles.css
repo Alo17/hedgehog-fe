@@ -18,7 +18,7 @@ h1 {
 
 form {
   margin-bottom: 20px;
-  background-color: #525C65;
+  background-color: #162252;
   margin: auto;
   display: flex;
   padding: 10px;
@@ -28,7 +28,7 @@ form {
 }
 
 p {
-  color: #26466D;
+  color: #D9D9F3;
   width: 55%;
   padding-right: 15px;
 }
@@ -70,37 +70,37 @@ p {
   cursor: pointer;
 }
 
-#hedgie-images {
+#ocean-images {
   margin: auto;
   width: 700px;
   display: grid;
   grid-template-columns: 350px 350px;
   grid-template-rows: 350px 350px;
-  grid-template-areas: "hedgie1 hedgie2" "hedgie3 hedgie4";
+  grid-template-areas: "ocean1 ocean2" "ocean3 ocean4";
   background-color: #EDF4F1;
   padding: 10px;
   margin-top: 25px;
   margin-bottom: 40px;
 }
 
-#hedgie1, #hedgie2, #hedgie3, #hedgie4 {
+#ocean1, #ocean2, #ocean3, #ocean4 {
   width: 350px;
   height: 350px;
   object-fit: cover;
 }
 
-#hedgie1 {
-  grid-area: hedgie1;
+#ocean1 {
+  grid-area: ocean1;
 }
 
-#hedgie2 {
-  grid-area: hedgie2;
+#ocean2 {
+  grid-area: ocean2;
 }
 
-#hedgie3 {
-  grid-area: hedgie3;
+#ocean3 {
+  grid-area: ocean3;
 }
 
-#hedgie4 {
-  grid-area: hedgie4;
+#ocean4 {
+  grid-area: ocean4;
 }
